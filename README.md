@@ -8,6 +8,7 @@ using namespace std;
 #define WEEK 7*1 
 void shellSort(double week_temp[])
 {
+	system("color 0a");
 	const int week_array = WEEK;
 	int counter, steps, claw,i;
 		for(counter = WEEK/2; counter != 0; counter /=2)
